@@ -14,7 +14,7 @@ func main() {
 	schooling = 12
 	fmt.Println("Studied", schooling)
 
-	fmt.Println("Task 2")
+	fmt.Println("Task 2")	
 	var name string
 	name = "Vladislav"
 	fmt.Print(name)
@@ -34,8 +34,8 @@ func main() {
 	fmt.Println("Task 4", largeNumber)
 
 	const breakTime = 15
-	fmt.Println("task 5", breakTime)
-	const breakTime = 20
-	fmt.Println(breakTime) // т.к. число является переменным константа, его невозможно менять в последующем коде
+		fmt.Println("task 5", breakTime)
+	//const breakTime = 20
+	//fmt.Println(breakTime) // т.к. число является переменным константа, его невозможно менять в последующем коде
 
 }
