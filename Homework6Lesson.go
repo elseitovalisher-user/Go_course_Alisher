@@ -19,14 +19,14 @@ func main() {
 	height_in_meters = 1.7
 	fmt.Println(height_in_meters)
 	// Task 3
-	var isStudent bool
+	var isStudent bool = true
 	fmt.Println(isStudent)
 	//task 4
 	var temperature int
 	fmt.Print("Введите температуру: ")
 	fmt.Scanln(&temperature)
 	if temperature > 0 {
-		fmt.Print("Погода теплая")
+		fmt.Println("Погода теплая")
 	} else {
 		fmt.Println("Погода холодная")
 	}
@@ -38,7 +38,7 @@ func main() {
 
 	const pi = 3.14
 	fmt.Println(pi)
-	pi := 3.1415
-	fmt.Println(pi) // т.к. число является переменным константа, его невозможно менять в последующем коде
+	// pi := 3.1415
+	// fmt.Println(pi) // т.к. число является переменным константа, его невозможно менять в последующем коде
 
 }
