@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"math"
 )
 
 func main() {
@@ -41,5 +42,35 @@ func main() {
 	var wordsGoal float64 = 120
 	var progressPercent = (knownWords / wordsGoal) * 100
 	fmt.Println(progressPercent, "%")
+
+	//task 5
+	var coins int = 0
+	coins += 500
+	fmt.Println(coins)
+	coins += 1200
+	fmt.Println("Bonus:", coins)
+	coins /= 2
+	fmt.Println("Wasted:", coins)
+	coins *= 2
+	fmt.Println("Earned x2:", coins)
+	coins -= 300
+	fmt.Println("Wasted:", coins)
+	//task 6
+	participants := 42
+	groupCount := 8
+	participantsPerGroup := participants / groupCount
+	fmt.Println(participantsPerGroup)
+	// task 7
+	fmt.Println(20 - 4*3)
+	fmt.Println((20 - 4) * 3)
+	/* Так как в программирование, как и в математике сначала выполняются математические действия в скобках,
+	а далее приоритет умножение/деление и сложение/вычитание*/
+
+	// task 8
+	squareValue := 81
+	fmt.Println(math.Sqrt(float64(squareValue)))
+	multiplier := 5
+	exponent := 3
+	fmt.Println(math.Pow(float64(multiplier), (float64(exponent))))
 
 }
