@@ -68,6 +68,7 @@ func main() {
 
 	// task 8
 	squareValue := 81
+
 	fmt.Println(math.Sqrt(float64(squareValue)))
 	multiplier := 5
 	exponent := 3
